@@ -25,7 +25,6 @@ displayCityTemp = (city) => {
         <h5>Sunset (local time): ${unixToNormalTime(city.sys.sunset)}</h5>
         
   `;
-  console.log(city);
 };
 
 kelvinToCelcius = (kelvin) => {
